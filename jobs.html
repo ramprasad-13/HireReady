@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs | HireReady</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h2>HireReady</h2>
+            </div>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="company.html">Companies</a></li>
+                    <li class="login_button"><a href="auth.html">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="jobs-container">
+        <section class="filter-job">
+            <h3>Filter Jobs</h3>
+            <div class="filter-job-location">
+                <h4>Location</h4>
+                <input type="checkbox" name="job-location" value="remote" id="remote" >
+                <label for="remote">Remote</label>
+                <br>
+                <input type="checkbox" name="job-location-2" value="Banglore" id="Banglore" >
+                <label for="banglore">Banglore</label>
+                <br>
+
+                <input type="checkbox" name="job-location-3" value="delhi" id="Delhi" >
+                <label for="delhi">Delhi</label>
+                <br>
+            </div>
+            <div class="filer-job-type">
+                <h4>Job Type</h4>
+                <input type="checkbox" name="job-type" value="full-time" id="full-time">
+                <label for="full-time">Full Time</label>
+                <br>
+                <input type="checkbox" name="job-type" value="internship" id="internship">
+                <label for="internship">Internship</label>
+                <br>
+            </div>
+            <div class="filer-job-type">
+                <h4>Experience</h4>
+                <input type="radio" name="experience" id="experience1" value="0-1">
+                <label for="experience1">0-1 Years</label>
+                <br>
+                <input type="radio" name="experience" id="experience2" value="2-4">
+                <label for="experience2">2-4 Years</label>
+                <br>
+                <input type="radio" name="experience" id="experience3" value="5">
+                <label for="experience3">5 Years</label>
+                <br>
+            </div>
+        </section>
+        <div class="jobs">
+            <div class="job">
+                <h3 class="job-role">Frontend Developer</h3>
+                <p class="job-location">Google · Bangalore</p>
+                <p class="job-package">₹10–15 LPA</p>
+                <p class="job-requirements">HTML CSS JavaScript</p>
+                <div class="view-details">
+                    <a href="./job-detail.html">View Details</a>
+                </div>
+            </div>
+            <div class="job">
+                <h3 class="job-role">Backend Developer</h3>
+                <p class="job-location">Amazon · Remote</p>
+                <p class="job-package">₹12–18 LPA</p>
+                <p class="job-requirements">Java Spring MySql</p>
+                <div class="view-details">
+                    <a href="./job-detail.html">View Details</a>
+                </div>
+            </div>
+            <div class="job">
+                <h3 class="job-role">Data Analyst</h3>
+                <p class="job-location">Flipkart · Bangalore</p>
+                <p class="job-package">₹8–12 LPA</p>
+                <p class="job-requirements">SQL Excel Python</p>
+                <div class="view-details">
+                    <a href="./job-detail.html">View Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="next-pages">
+            <a href="#">Prev</a>
+            Page 1 of 5
+            <a href="#">Next</a>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright_msg">
+            &copy;2026 HireReady. All rights reserved.
+        </div>
+        <div class="quick_links">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
